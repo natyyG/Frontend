@@ -1,0 +1,41 @@
+.down{
+    display: flex;
+    flex-direction: column;
+    background: #333333;
+    min-height: 300px;
+    color: #f8d7fa;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-bottom: 33px;
+}
+hr{
+    width: 81%;
+    margin-top: 57px;
+    margin-bottom: 39px;
+    margin-right: 0px;
+    margin-left: 37px;
+    align-self: center;
+}
+footer{
+    width:78%;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 94px;
+    font-size:18px;
+}
+.Logodesc{
+    width:30%;
+}
+    
+.social{
+    width:25%;
+}
+.Legal{
+    width:25%;
+    display: flex;
+    justify-content: space-around;
+}
