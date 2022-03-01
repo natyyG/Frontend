@@ -242,23 +242,30 @@
             <div class="image-box">
              <img src="./assets/img/bg.png" alt="">
             </div>
-          <form action="#">
+          <form action="https://formsubmit.co/banyamano54@gmail.com" method="POST">
             <div class="topic">ContactUs</div>
             <div class="input-box">
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_subject" value="New Order">
               <input type="text" required>
               <label>Enter your name</label>
             </div>
             <div class="input-box">
-              <input type="text" required>
+              <input type="email" required>
               <label>Enter your email</label>
             </div>
             <div class="input-box">
-              <input type="text message" required>
-              <label>Enter your message</label>
+              <input type="text" required>
+              <label>Enter your Phone Number</label>
 
             </div>
             <div class="input-box">
-              <input type="submit" value="Send">
+              <input type="message" required>
+              <label>Enter your Order</label>
+            </div>
+            
+            <div class="input-box">
+              <input class="submit" type="submit" value="Send">
             </div>
           </form>
         </div>
@@ -288,6 +295,11 @@
         <hr>
         <h3></h3>
       </section>
+      <script>
+        function (Document.getElementByClass(".submit")) () =>{
+          alert("message succesfully submited")
+        }
+      </script>
         <!--===== GSAP =====-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
 
